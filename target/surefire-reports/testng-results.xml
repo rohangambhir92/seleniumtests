@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="8" total="29" passed="21">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="17362" started-at="2019-09-30T18:13:43Z" finished-at="2019-09-30T18:14:00Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="17362" started-at="2019-09-30T18:13:43Z" finished-at="2019-09-30T18:14:00Z">
+      <class name="com.nagarro.nagp.restassured.assignment.TestC4_TaskCommentFlows">
+        <test-method status="PASS" signature="setupTaskComments()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC4_TaskCommentFlows@50f8360d]" name="setupTaskComments" is-config="true" duration-ms="1200" started-at="2019-09-30T18:13:53Z" finished-at="2019-09-30T18:13:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTaskComments -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC4_TaskCommentFlows@50f8360d]" name="setup" is-config="true" duration-ms="1" started-at="2019-09-30T18:13:54Z" finished-at="2019-09-30T18:13:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC13_addTaskComment(java.lang.String)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC4_TaskCommentFlows@50f8360d]" name="TC13_addTaskComment" duration-ms="572" started-at="2019-09-30T18:13:54Z" data-provider="DataProviderAddComment" finished-at="2019-09-30T18:13:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Comment_RA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC13_addTaskComment -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC4_TaskCommentFlows@50f8360d]" name="setup" is-config="true" duration-ms="1" started-at="2019-09-30T18:13:55Z" finished-at="2019-09-30T18:13:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC4_TaskCommentFlows@50f8360d]" name="getResult" is-config="true" duration-ms="0" started-at="2019-09-30T18:13:55Z" finished-at="2019-09-30T18:13:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC13_addTaskComment status=SUCCESS method=TestC4_TaskCommentFlows.TC13_addTaskComment(java.lang.String)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC4_TaskCommentFlows@50f8360d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TC14_getSpecificComment()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC4_TaskCommentFlows@50f8360d]" name="TC14_getSpecificComment" duration-ms="570" started-at="2019-09-30T18:13:55Z" finished-at="2019-09-30T18:13:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC14_getSpecificComment -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC4_TaskCommentFlows@50f8360d]" name="setup" is-config="true" duration-ms="2" started-at="2019-09-30T18:13:56Z" finished-at="2019-09-30T18:13:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC4_TaskCommentFlows@50f8360d]" name="getResult" is-config="true" duration-ms="0" started-at="2019-09-30T18:13:56Z" finished-at="2019-09-30T18:13:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC14_getSpecificComment status=SUCCESS method=TestC4_TaskCommentFlows.TC14_getSpecificComment()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC4_TaskCommentFlows@50f8360d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TC15_getCommentsFromList()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC4_TaskCommentFlows@50f8360d]" name="TC15_getCommentsFromList" duration-ms="474" started-at="2019-09-30T18:13:56Z" finished-at="2019-09-30T18:13:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC15_getCommentsFromList -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC4_TaskCommentFlows@50f8360d]" name="getResult" is-config="true" duration-ms="1" started-at="2019-09-30T18:13:56Z" finished-at="2019-09-30T18:13:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC15_getCommentsFromList status=SUCCESS method=TestC4_TaskCommentFlows.TC15_getCommentsFromList()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC4_TaskCommentFlows@50f8360d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC4_TaskCommentFlows@50f8360d]" name="setup" is-config="true" duration-ms="1" started-at="2019-09-30T18:13:56Z" finished-at="2019-09-30T18:13:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC16_getCommentsFromTask()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC4_TaskCommentFlows@50f8360d]" name="TC16_getCommentsFromTask" duration-ms="495" started-at="2019-09-30T18:13:56Z" finished-at="2019-09-30T18:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC16_getCommentsFromTask -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC4_TaskCommentFlows@50f8360d]" name="getResult" is-config="true" duration-ms="0" started-at="2019-09-30T18:13:57Z" finished-at="2019-09-30T18:13:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC16_getCommentsFromTask status=SUCCESS method=TestC4_TaskCommentFlows.TC16_getCommentsFromTask()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC4_TaskCommentFlows@50f8360d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.nagarro.nagp.restassured.assignment.TestC4_TaskCommentFlows -->
+      <class name="com.nagarro.nagp.restassured.assignment.TestC3_SubTaskFlows">
+        <test-method status="PASS" signature="setupSubTasks()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC3_SubTaskFlows@61dc03ce]" name="setupSubTasks" is-config="true" duration-ms="1042" started-at="2019-09-30T18:13:50Z" finished-at="2019-09-30T18:13:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSubTasks -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC3_SubTaskFlows@61dc03ce]" name="setup" is-config="true" duration-ms="0" started-at="2019-09-30T18:13:51Z" finished-at="2019-09-30T18:13:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC09_addSubTask(java.lang.String)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC3_SubTaskFlows@61dc03ce]" name="TC09_addSubTask" duration-ms="507" started-at="2019-09-30T18:13:51Z" data-provider="DataProviderAddSubTask" finished-at="2019-09-30T18:13:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestSubTask1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC09_addSubTask -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC3_SubTaskFlows@61dc03ce]" name="setup" is-config="true" duration-ms="1" started-at="2019-09-30T18:13:52Z" finished-at="2019-09-30T18:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC3_SubTaskFlows@61dc03ce]" name="getResult" is-config="true" duration-ms="0" started-at="2019-09-30T18:13:52Z" finished-at="2019-09-30T18:13:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC09_addSubTask status=SUCCESS method=TestC3_SubTaskFlows.TC09_addSubTask(java.lang.String)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC3_SubTaskFlows@61dc03ce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TC10_updateSubTask(java.lang.String)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC3_SubTaskFlows@61dc03ce]" name="TC10_updateSubTask" duration-ms="515" started-at="2019-09-30T18:13:52Z" data-provider="DataProviderUpdateSubTask" finished-at="2019-09-30T18:13:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestSubTask1Updated]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10_updateSubTask -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC3_SubTaskFlows@61dc03ce]" name="getResult" is-config="true" duration-ms="0" started-at="2019-09-30T18:13:52Z" finished-at="2019-09-30T18:13:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC10_updateSubTask status=SUCCESS method=TestC3_SubTaskFlows.TC10_updateSubTask(java.lang.String)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC3_SubTaskFlows@61dc03ce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC3_SubTaskFlows@61dc03ce]" name="setup" is-config="true" duration-ms="3" started-at="2019-09-30T18:13:52Z" finished-at="2019-09-30T18:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC11_deleteSubTask()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC3_SubTaskFlows@61dc03ce]" name="TC11_deleteSubTask" duration-ms="607" started-at="2019-09-30T18:13:52Z" finished-at="2019-09-30T18:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC11_deleteSubTask -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC3_SubTaskFlows@61dc03ce]" name="getResult" is-config="true" duration-ms="1" started-at="2019-09-30T18:13:53Z" finished-at="2019-09-30T18:13:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC11_deleteSubTask status=SUCCESS method=TestC3_SubTaskFlows.TC11_deleteSubTask()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC3_SubTaskFlows@61dc03ce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC3_SubTaskFlows@61dc03ce]" name="setup" is-config="true" duration-ms="1" started-at="2019-09-30T18:13:53Z" finished-at="2019-09-30T18:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC12_getSubTasks()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC3_SubTaskFlows@61dc03ce]" name="TC12_getSubTasks" duration-ms="508" started-at="2019-09-30T18:13:53Z" finished-at="2019-09-30T18:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC12_getSubTasks -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC3_SubTaskFlows@61dc03ce]" name="getResult" is-config="true" duration-ms="1" started-at="2019-09-30T18:13:53Z" finished-at="2019-09-30T18:13:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC12_getSubTasks status=SUCCESS method=TestC3_SubTaskFlows.TC12_getSubTasks()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC3_SubTaskFlows@61dc03ce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.nagarro.nagp.restassured.assignment.TestC3_SubTaskFlows -->
+      <class name="com.nagarro.nagp.restassured.assignment.TestC1_ListFlows">
+        <test-method status="PASS" signature="initializeSetup()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC1_ListFlows@234bef66]" name="initializeSetup" is-config="true" duration-ms="267" started-at="2019-09-30T18:13:43Z" finished-at="2019-09-30T18:13:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC1_ListFlows@234bef66]" name="setup" is-config="true" duration-ms="21" started-at="2019-09-30T18:13:43Z" finished-at="2019-09-30T18:13:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC01_addList(java.lang.String)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC1_ListFlows@234bef66]" name="TC01_addList" duration-ms="2626" started-at="2019-09-30T18:13:43Z" data-provider="DataProviderAddList" finished-at="2019-09-30T18:13:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestList1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_addList -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC1_ListFlows@234bef66]" name="getResult" is-config="true" duration-ms="9" started-at="2019-09-30T18:13:46Z" finished-at="2019-09-30T18:13:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC01_addList status=SUCCESS method=TestC1_ListFlows.TC01_addList(java.lang.String)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC1_ListFlows@234bef66] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC1_ListFlows@234bef66]" name="setup" is-config="true" duration-ms="8" started-at="2019-09-30T18:13:46Z" finished-at="2019-09-30T18:13:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC02_updateList(java.lang.String)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC1_ListFlows@234bef66]" name="TC02_updateList" duration-ms="525" started-at="2019-09-30T18:13:46Z" data-provider="DataProviderUpdateList" finished-at="2019-09-30T18:13:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestList1Updated]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_updateList -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC1_ListFlows@234bef66]" name="getResult" is-config="true" duration-ms="1" started-at="2019-09-30T18:13:46Z" finished-at="2019-09-30T18:13:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC02_updateList status=SUCCESS method=TestC1_ListFlows.TC02_updateList(java.lang.String)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC1_ListFlows@234bef66] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC1_ListFlows@234bef66]" name="setup" is-config="true" duration-ms="1" started-at="2019-09-30T18:13:46Z" finished-at="2019-09-30T18:13:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC03_deleteList()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC1_ListFlows@234bef66]" name="TC03_deleteList" duration-ms="503" started-at="2019-09-30T18:13:46Z" finished-at="2019-09-30T18:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_deleteList -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC1_ListFlows@234bef66]" name="getResult" is-config="true" duration-ms="1" started-at="2019-09-30T18:13:47Z" finished-at="2019-09-30T18:13:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC03_deleteList status=SUCCESS method=TestC1_ListFlows.TC03_deleteList()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC1_ListFlows@234bef66] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC1_ListFlows@234bef66]" name="setup" is-config="true" duration-ms="1" started-at="2019-09-30T18:13:47Z" finished-at="2019-09-30T18:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC04_getLists()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC1_ListFlows@234bef66]" name="TC04_getLists" duration-ms="499" started-at="2019-09-30T18:13:47Z" finished-at="2019-09-30T18:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_getLists -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC1_ListFlows@234bef66]" name="getResult" is-config="true" duration-ms="0" started-at="2019-09-30T18:13:47Z" finished-at="2019-09-30T18:13:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC04_getLists status=SUCCESS method=TestC1_ListFlows.TC04_getLists()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC1_ListFlows@234bef66] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="publishReport()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC1_ListFlows@234bef66]" name="publishReport" is-config="true" duration-ms="327" started-at="2019-09-30T18:14:00Z" finished-at="2019-09-30T18:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishReport -->
+      </class> <!-- com.nagarro.nagp.restassured.assignment.TestC1_ListFlows -->
+      <class name="com.nagarro.nagp.restassured.assignment.TestC5_NoteFlows">
+        <test-method status="PASS" signature="setupNotes()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC5_NoteFlows@2cb4c3ab]" name="setupNotes" is-config="true" duration-ms="1261" started-at="2019-09-30T18:13:57Z" finished-at="2019-09-30T18:13:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupNotes -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC5_NoteFlows@2cb4c3ab]" name="setup" is-config="true" duration-ms="1" started-at="2019-09-30T18:13:58Z" finished-at="2019-09-30T18:13:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC17_addNote(java.lang.String)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC5_NoteFlows@2cb4c3ab]" name="TC17_addNote" duration-ms="495" started-at="2019-09-30T18:13:58Z" data-provider="DataProviderAddNote" finished-at="2019-09-30T18:13:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Note_RA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC17_addNote -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC5_NoteFlows@2cb4c3ab]" name="getResult" is-config="true" duration-ms="0" started-at="2019-09-30T18:13:58Z" finished-at="2019-09-30T18:13:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC17_addNote status=SUCCESS method=TestC5_NoteFlows.TC17_addNote(java.lang.String)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC5_NoteFlows@2cb4c3ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC5_NoteFlows@2cb4c3ab]" name="setup" is-config="true" duration-ms="1" started-at="2019-09-30T18:13:58Z" finished-at="2019-09-30T18:13:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC18_updateNote(java.lang.String)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC5_NoteFlows@2cb4c3ab]" name="TC18_updateNote" duration-ms="501" started-at="2019-09-30T18:13:58Z" data-provider="DataProviderUpdateNote" finished-at="2019-09-30T18:13:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Note_RAUpdated]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC18_updateNote -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC5_NoteFlows@2cb4c3ab]" name="getResult" is-config="true" duration-ms="1" started-at="2019-09-30T18:13:59Z" finished-at="2019-09-30T18:13:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC18_updateNote status=SUCCESS method=TestC5_NoteFlows.TC18_updateNote(java.lang.String)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC5_NoteFlows@2cb4c3ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC5_NoteFlows@2cb4c3ab]" name="setup" is-config="true" duration-ms="1" started-at="2019-09-30T18:13:59Z" finished-at="2019-09-30T18:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC19_getNotesFromList()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC5_NoteFlows@2cb4c3ab]" name="TC19_getNotesFromList" duration-ms="546" started-at="2019-09-30T18:13:59Z" finished-at="2019-09-30T18:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC19_getNotesFromList -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC5_NoteFlows@2cb4c3ab]" name="setup" is-config="true" duration-ms="1" started-at="2019-09-30T18:13:59Z" finished-at="2019-09-30T18:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC5_NoteFlows@2cb4c3ab]" name="getResult" is-config="true" duration-ms="0" started-at="2019-09-30T18:13:59Z" finished-at="2019-09-30T18:13:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC19_getNotesFromList status=SUCCESS method=TestC5_NoteFlows.TC19_getNotesFromList()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC5_NoteFlows@2cb4c3ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TC20_getNotesFromTask()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC5_NoteFlows@2cb4c3ab]" name="TC20_getNotesFromTask" duration-ms="459" started-at="2019-09-30T18:13:59Z" finished-at="2019-09-30T18:14:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC20_getNotesFromTask -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC5_NoteFlows@2cb4c3ab]" name="setup" is-config="true" duration-ms="1" started-at="2019-09-30T18:14:00Z" finished-at="2019-09-30T18:14:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC5_NoteFlows@2cb4c3ab]" name="getResult" is-config="true" duration-ms="0" started-at="2019-09-30T18:14:00Z" finished-at="2019-09-30T18:14:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC20_getNotesFromTask status=SUCCESS method=TestC5_NoteFlows.TC20_getNotesFromTask()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC5_NoteFlows@2cb4c3ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TC21_deleteNote()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC5_NoteFlows@2cb4c3ab]" name="TC21_deleteNote" duration-ms="499" started-at="2019-09-30T18:14:00Z" finished-at="2019-09-30T18:14:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC21_deleteNote -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC5_NoteFlows@2cb4c3ab]" name="getResult" is-config="true" duration-ms="1" started-at="2019-09-30T18:14:00Z" finished-at="2019-09-30T18:14:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC21_deleteNote status=SUCCESS method=TestC5_NoteFlows.TC21_deleteNote()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC5_NoteFlows@2cb4c3ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.nagarro.nagp.restassured.assignment.TestC5_NoteFlows -->
+      <class name="com.nagarro.nagp.restassured.assignment.TestC2_TaskFlows">
+        <test-method status="PASS" signature="setupTasks()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC2_TaskFlows@737996a0]" name="setupTasks" is-config="true" duration-ms="563" started-at="2019-09-30T18:13:47Z" finished-at="2019-09-30T18:13:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTasks -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC2_TaskFlows@737996a0]" name="setup" is-config="true" duration-ms="1" started-at="2019-09-30T18:13:48Z" finished-at="2019-09-30T18:13:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC05_addTask(java.lang.String)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC2_TaskFlows@737996a0]" name="TC05_addTask" duration-ms="576" started-at="2019-09-30T18:13:48Z" data-provider="DataProviderAddTask" finished-at="2019-09-30T18:13:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestTask1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_addTask -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC2_TaskFlows@737996a0]" name="getResult" is-config="true" duration-ms="0" started-at="2019-09-30T18:13:48Z" finished-at="2019-09-30T18:13:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC05_addTask status=SUCCESS method=TestC2_TaskFlows.TC05_addTask(java.lang.String)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC2_TaskFlows@737996a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC2_TaskFlows@737996a0]" name="setup" is-config="true" duration-ms="1" started-at="2019-09-30T18:13:48Z" finished-at="2019-09-30T18:13:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC06_updateTask(java.lang.String)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC2_TaskFlows@737996a0]" name="TC06_updateTask" duration-ms="725" started-at="2019-09-30T18:13:48Z" data-provider="DataProviderUpdateTask" finished-at="2019-09-30T18:13:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestTask1Updated]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06_updateTask -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC2_TaskFlows@737996a0]" name="getResult" is-config="true" duration-ms="1" started-at="2019-09-30T18:13:49Z" finished-at="2019-09-30T18:13:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC06_updateTask status=SUCCESS method=TestC2_TaskFlows.TC06_updateTask(java.lang.String)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC2_TaskFlows@737996a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC2_TaskFlows@737996a0]" name="setup" is-config="true" duration-ms="1" started-at="2019-09-30T18:13:49Z" finished-at="2019-09-30T18:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC07_deleteTask()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC2_TaskFlows@737996a0]" name="TC07_deleteTask" duration-ms="504" started-at="2019-09-30T18:13:49Z" finished-at="2019-09-30T18:13:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07_deleteTask -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC2_TaskFlows@737996a0]" name="getResult" is-config="true" duration-ms="0" started-at="2019-09-30T18:13:50Z" finished-at="2019-09-30T18:13:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC07_deleteTask status=SUCCESS method=TestC2_TaskFlows.TC07_deleteTask()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC2_TaskFlows@737996a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC2_TaskFlows@737996a0]" name="setup" is-config="true" duration-ms="1" started-at="2019-09-30T18:13:50Z" finished-at="2019-09-30T18:13:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC08_getTasks()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC2_TaskFlows@737996a0]" name="TC08_getTasks" duration-ms="488" started-at="2019-09-30T18:13:50Z" finished-at="2019-09-30T18:13:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC08_getTasks -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC2_TaskFlows@737996a0]" name="getResult" is-config="true" duration-ms="1" started-at="2019-09-30T18:13:50Z" finished-at="2019-09-30T18:13:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC08_getTasks status=SUCCESS method=TestC2_TaskFlows.TC08_getTasks()[pri:0, instance:com.nagarro.nagp.restassured.assignment.TestC2_TaskFlows@737996a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.nagarro.nagp.restassured.assignment.TestC2_TaskFlows -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
